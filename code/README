@@ -1,0 +1,29 @@
+The following execution sequence assumes you have train.csv, test.csv and question.csv in the current folder in which all the codes reside and this readme reside.
+
+
+# Generate separate training files for each DeviceID
+$ python gen_new_files.py
+
+# Genereate the 1st submission as submission1.csv
+$ python features1.py
+$ python seq_features1.py
+$ python gen_submission1.py
+
+# Genereate the 2nd submission as submission2.csv
+$ python features2.py
+$ python seq_features2.py
+$ python gen_submission2.py
+
+# Genereate the 3rd submission as submission3.csv
+$ python features3.py
+$ python seq_features3.py
+$ python gen_submission3.py
+
+# Genereate the 4th submission as submission4.csv
+$ python gen_submission4.py
+
+# Genereate the 5th submission as submission5.txt
+$ python gen_submission5.py
+
+If you encounter any error, please email to aaaagrawal@gmail.com to resolve the issue.
+
